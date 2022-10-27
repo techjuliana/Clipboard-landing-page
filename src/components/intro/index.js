@@ -1,18 +1,18 @@
-import logo from "../../assets/logo.svg";
-import { Logo, Container } from "./styled";
+import logo from "./../../images/logo.svg";
+import { Logo, Container, Fundo } from "./styled";
+import fundo from "./../../images/bg-header-desktop.png";
 
 export function Intro() {
   return (
-      <Container>
-        <Logo src={logo} alt="logotipo github" />
-        <nav class="menu">
-                <ul>
-                    <li>
-                        <a href="/">Download for IOS</a>
-                        <a href="/">Download for MAC</a>
-                    </li>
-                </ul>
-            </nav>
-      </Container>
+    <Container>
+      <Fundo src={fundo} alt="" />
+      <Logo src={logo} alt="logotipo c" />
+      <h1>A history of everything you copy</h1>
+      <p>texto aqui</p>
+      <div className="Download">
+        <button className="botao-verde">Download for IOS</button>
+        <button className="botao-azul">Download for MAC</button>
+      </div>
+    </Container>
   );
 }
