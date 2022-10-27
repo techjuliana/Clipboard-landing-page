@@ -5,6 +5,6 @@ export const Container = styled.body`
 `;
 
 export const Devices = styled.img`
-  width: 650px;
+  width: 700px;
   height: 500px;
 `;
