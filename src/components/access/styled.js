@@ -7,14 +7,12 @@ export const Container = styled.body`
   align-items: center;
   flex-wrap: wrap;
 
-  p{ 
-    margin:2rem;
-    text-align:center;
-    padding-bottom:5rem;
+  p {
+    margin: 2rem;
+    text-align: center;
+    padding-bottom: 5rem;
   }
 `;
-
-
 
 export const Devices = styled.img`
   width: 700px;
