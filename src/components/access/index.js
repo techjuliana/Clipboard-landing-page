@@ -5,7 +5,8 @@ export function Access() {
   return (
     <Container>
      <h1>Access Clipboard anywhere</h1>
-      <p>texto aqui</p>
+      <p>Whether you're on the go. or at your computer, you can access all your Clipboard <br/> 
+      snippets in a few simple clicks </p>
       <Devices src={devices} alt="Computador" />
     </Container>
   );
