@@ -1,22 +1,29 @@
 import styled from "styled-components";
 
 export const Container = styled.footer`
-    background: #F5F6F8;
-    width: 100%;
-    padding: 3rem 0;
+  background: #f5f6f8;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 4rem;
+
+  ul {
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .redes-sociais {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    .menu {
-        text-align: center;
-        margin-top: 1rem;
+    img {
+      margin: 5px;
     }
-    .menu ul li {
-        display: inline-block;
-    }
+  }
 `;
 export const Logo = styled.img`
-    width: 70px;
-    height: 70px;
-    padding-right: 1rem;
+  width: 70px;
+  height: 70px;
 `;

@@ -26,6 +26,8 @@ button, a {
   text-decoration: none;
 }
 
-.button:hover{
+button:hover{
   box-shadow: inset 200px 0 0 #00000055;
 }
+
+.
