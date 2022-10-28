@@ -63,11 +63,12 @@ export const Pc = styled.img`
   object-position: right;
   display: flex;
   @media (max-width: 800px) {
-    width: 320px;
+    width: 300px;
     height: 230px;
+    /* margin-bottom: 3rem; */
     display: flex;
-    margin-bottom: 3rem;
-    margin-left:3rem;
+    justify-content: center;
     object-fit: fill;
+    margin:2rem;
   }
 `;
