@@ -18,8 +18,9 @@ export const Container = styled.div`
     color: white;
     font-weight: bold;
     margin: 10px;
-    padding: 1.3rem;
+    padding: 1rem;
     border-radius: 30px;
     width: 12rem;
+    margin-bottom:10rem;
   }
 `;

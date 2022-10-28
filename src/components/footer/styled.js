@@ -15,6 +15,10 @@ export const Container = styled.footer`
     padding: 10px;
   }
 
+  li {
+    padding: 13px;
+  }
+
   .redes-sociais {
     display: flex;
     flex-direction: row;

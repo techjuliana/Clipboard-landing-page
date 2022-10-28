@@ -7,8 +7,9 @@ import { Logo, Container } from "./styled";
 export function Footer() {
   return (
       <Container>
-        <Logo src={logo} alt="logotipo C" />
+       
         <nav className="menu">
+        <Logo src={logo} alt="logotipo C" />
                 <ul>
                 <li>
                 <a href="/">FAQs</a>
