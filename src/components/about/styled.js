@@ -31,7 +31,7 @@ export const Container = styled.div`
     }
     p {
       padding-top: 1rem;
-      padding-bottom: 4rem;
+      padding-bottom: 2rem;
     }
     @media (max-width: 800px) {
       margin-left: 0rem;
@@ -56,8 +56,8 @@ export const Pc = styled.img`
   object-position: right;
   display: flex;
   @media (max-width: 800px) {
-    width: 300px;
-    height: 200px;
+    width: 320px;
+    height: 230px;
     display: flex;
     justify-content: center;
     align-items: center;
