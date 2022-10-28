@@ -6,26 +6,29 @@
   font-family: "Bai Jamjuree", sans-serif;
 }
 
-body{
+body {
   width: 100vw;
   height: 100vh;
   background: #fff;
 }
 
-h1, h3, a {
-  color:hsl(210, 10%, 33%);
+h1,
+h3,
+a {
+  color: hsl(210, 10%, 33%);
 }
 
 p {
   color: hsl(201, 11%, 66%);
 }
 
-button, a {
-  color:black;
+button,
+a {
+  color: black;
   cursor: pointer;
   text-decoration: none;
 }
 
-button:hover{
+button:hover {
   box-shadow: inset 200px 0 0 #00000055;
 }

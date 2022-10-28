@@ -2,6 +2,8 @@ import {Intro} from "./components/intro";
 import {About} from "./components/about";
 import {Access} from "./components/access";
 import {Footer} from "./components/footer";
+import {Workflow} from "./components/workflow";
+import {Down} from "./components/down";
 
 export default function App() {
   return (
@@ -9,7 +11,9 @@ export default function App() {
       <Intro />
       <About />
       <Access />
-      <Footer />
+      <Workflow/>
+      <Down />
+      <Footer/>
     </div>
   );
 }
