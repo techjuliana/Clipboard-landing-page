@@ -65,10 +65,10 @@ export const Pc = styled.img`
   @media (max-width: 800px) {
     width: 300px;
     height: 230px;
-    /* margin-bottom: 3rem; */
+    margin-bottom: 3rem;
     display: flex;
     justify-content: center;
     object-fit: fill;
-    margin:2rem;
+    padding-left:1rem;
   }
 `;
