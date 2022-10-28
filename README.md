@@ -8,7 +8,7 @@
 
 Você pode ver o projeto através do link abaixo :)
 
-<a href="https://landing-page-fubpfgplj-techjuliana.vercel.app/" target="" alt="">Clique aqui</a>
+<a href="https://landing-page-inky-eight.vercel.app/" target="" alt="">Clique aqui</a>
 
 ---
 ## Tech Juliana
