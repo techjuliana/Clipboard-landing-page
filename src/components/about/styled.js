@@ -2,11 +2,13 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  align-items: center;
-  margin: 2rem;
   margin-bottom: 7rem;
+  .texto-titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .texto {
     margin-top: 1.5rem;
     margin-bottom: 4rem;
@@ -33,6 +35,8 @@ export const Container = styled.div`
 export const Pc = styled.img`
   width: 600px;
   height: 500px;
+  object-fit: cover;
+    object-position: right;
   display: flex;
-  align-items: flex-start;
+  /* align-items: flex-start; */
 `;
