@@ -6,6 +6,12 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   margin: 2rem;
+  @media (max-width: 800px) {
+    h1,
+    p {
+      text-align: center;
+      margin:1rem;
+    }}
   img {
     margin: 2rem;
   }
