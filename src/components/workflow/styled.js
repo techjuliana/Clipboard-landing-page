@@ -7,7 +7,7 @@ export const Container = styled.div`
   align-items: center;
   margin: 2rem;
   img {
-    margin: 3rem;
+    margin: 2rem;
   }
   .texto {
     margin-top: 1.5rem;
@@ -16,7 +16,7 @@ export const Container = styled.div`
   }
   .marcas {
     @media (max-width: 800px) {
-      margin: 10rem;
+      padding: 10rem;
     }
   }
   .listagem {
@@ -32,13 +32,16 @@ export const Container = styled.div`
       padding-bottom: 4rem;
       text-align: center;
       @media (max-width: 800px) {
-        padding-bottom: 2rem;
+        padding-bottom: 0rem;
       }
     }
 
     .listagem-superior {
       text-align: center;
       margin: 2rem;
+      @media (max-width: 800px) {
+        margin: 1rem;
+      }
     }
   }
 `;

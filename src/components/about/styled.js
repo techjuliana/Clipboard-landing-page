@@ -7,7 +7,11 @@ export const Container = styled.div`
   @media (max-width: 800px) {
     justify-content: center;
     align-items: center;
-    margin-bottom: 1rem;
+    h1,
+    h3,
+    p {
+      text-align: center;
+    }
   }
 
   .texto-titulo {
@@ -19,6 +23,9 @@ export const Container = styled.div`
     margin-top: 1.5rem;
     margin-bottom: 4rem;
     text-align: center;
+    @media (max-width: 800px) {
+      align-items: center;
+    }
   }
 
   .listagem {
@@ -58,9 +65,6 @@ export const Pc = styled.img`
   @media (max-width: 800px) {
     width: 320px;
     height: 230px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-bottom: 3rem;
     object-fit: fill;
   }
