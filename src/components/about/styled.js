@@ -5,6 +5,7 @@ export const Container = styled.div`
   flex-direction: column;
   margin-bottom: 7rem;
   @media (max-width: 800px) {
+    margin-bottom: 0rem;
     justify-content: center;
     align-items: center;
     h1,
@@ -35,6 +36,7 @@ export const Container = styled.div`
     margin-left: 7rem;
     @media (max-width: 800px) {
       align-items: center;
+      margin-top: 2rem;
     }
     p {
       padding-top: 1rem;
@@ -63,11 +65,12 @@ export const Pc = styled.img`
   object-position: right;
   display: flex;
   @media (max-width: 800px) {
-    max-width: 300px;
-    max-height: 230px;
-    margin-bottom: 3rem;
+    width: 300px;
+    height: 200px;
+    margin: auto;
+  display: block;
     display: flex;
-    justify-content: center;
+    text-align: center;
     object-fit: fill;
   }
 `;
