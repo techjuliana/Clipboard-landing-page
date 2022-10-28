@@ -30,9 +30,10 @@ export const Container = styled.footer`
   }
 
   .redes-sociais {
-    display: grid;
+    display: flex;
     flex-direction: row;
     @media (max-width: 800px) {
+      display:grid;
       justify-content: center;
       grid-template-columns: auto auto auto;
     }
