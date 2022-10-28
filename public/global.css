@@ -19,6 +19,10 @@ a {
 }
 
 
+h1, h3, p{
+  text-align:center;
+}
+
 p {
   color: hsl(201, 11%, 66%);
 }
