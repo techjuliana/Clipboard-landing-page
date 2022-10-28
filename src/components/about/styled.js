@@ -4,7 +4,13 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   margin-bottom: 7rem;
-  .texto-titulo{
+  @media (max-width: 800px) {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+
+  .texto-titulo {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,15 +26,26 @@ export const Container = styled.div`
     justify-content: center;
     flex-direction: column;
     margin-left: 7rem;
+    @media (max-width: 800px) {
+      align-items: center;
+    }
     p {
       padding-top: 1rem;
       padding-bottom: 4rem;
+    }
+    @media (max-width: 800px) {
+      margin-left: 0rem;
     }
   }
 
   .canto {
     display: flex;
     flex-direction: row;
+    @media (max-width: 800px) {
+      flex-direction: column;
+      margin-bottom: 1rem;
+      justify-content: center;
+    }
   }
 `;
 
@@ -36,7 +53,15 @@ export const Pc = styled.img`
   width: 600px;
   height: 500px;
   object-fit: cover;
-    object-position: right;
+  object-position: right;
   display: flex;
-  /* align-items: flex-start; */
+  @media (max-width: 800px) {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+    object-fit: fill;
+  }
 `;

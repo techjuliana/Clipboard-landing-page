@@ -5,6 +5,10 @@ export const Container = styled.div`
   justify-content: center;
   flex-direction: row;
   align-items: center;
+  margin-bottom:10rem;
+  @media (max-width: 800px) {
+    flex-direction: column;
+    }
   .botao-verde {
     background-color: hsl(171, 66%, 44%);
     box-shadow: 5px 5px 4px hsl(171, 66%, 39%);
@@ -22,5 +26,8 @@ export const Container = styled.div`
     border-radius: 30px;
     width: 12rem;
     margin-bottom:10rem;
+    @media (max-width: 800px) {
+      margin: 10px;
+    }
   }
 `;

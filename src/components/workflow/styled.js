@@ -6,7 +6,6 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   margin: 2rem;
-
   img {
     margin: 3rem;
   }
@@ -15,16 +14,26 @@ export const Container = styled.div`
     margin-bottom: 4rem;
     text-align: center;
   }
-
+  .marcas {
+    @media (max-width: 800px) {
+      margin: 10rem;
+    }
+  }
   .listagem {
     display: flex;
     justify-content: center;
     flex-direction: row;
+    @media (max-width: 800px) {
+      flex-direction: column;
+    }
 
     p {
       padding-top: 1rem;
       padding-bottom: 4rem;
       text-align: center;
+      @media (max-width: 800px) {
+        padding-bottom: 2rem;
+      }
     }
 
     .listagem-superior {
