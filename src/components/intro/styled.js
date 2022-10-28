@@ -5,13 +5,18 @@ export const Container = styled.div`
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  p {
+      text-align: center; 
+      margin:1rem;
+    }
+  }
   @media (max-width: 800px) {
     h1,
     p {
       text-align: center;
-      margin: 1rem;
+      margin:1rem;
     }
-  }
+    
 `;
 
 export const Logo = styled.img`
