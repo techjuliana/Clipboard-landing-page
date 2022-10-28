@@ -18,11 +18,11 @@ a {
   color: hsl(210, 10%, 33%);
 }
 
-
-h1, h3, p{
-    text-align:center;
-    margin: 1rem;
- 
+h1,
+h3,
+p {
+  text-align: center;
+  margin: 1rem;
 }
 
 p {

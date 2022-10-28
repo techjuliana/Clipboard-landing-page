@@ -5,7 +5,6 @@ export const Container = styled.body`
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  flex-wrap: wrap;
   p {
     margin: 2rem;
     text-align: center;
