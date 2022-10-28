@@ -30,4 +30,5 @@ export const Container = styled.footer`
 export const Logo = styled.img`
   width: 70px;
   height: 70px;
+  margin-right:4rem;
 `;
