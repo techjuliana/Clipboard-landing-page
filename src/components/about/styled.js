@@ -65,7 +65,9 @@ export const Pc = styled.img`
   @media (max-width: 800px) {
     width: 320px;
     height: 230px;
+    display: flex;
     margin-bottom: 3rem;
+    margin-left:3rem;
     object-fit: fill;
   }
 `;
