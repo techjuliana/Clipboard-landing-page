@@ -2,12 +2,12 @@ import logo from "./../../images/logo.svg";
 import facebook from "./../../images/icon-facebook.svg";
 import instagram from "./../../images/icon-instagram.svg";
 import twitter from "./../../images/icon-twitter.svg";
-import { Logo, Container } from "./styled";
+import { Logo, Container, Redes, Menu } from "./styled";
 
 export function Footer() {
   return (
     <Container>
-      <nav className="menu">
+      <Menu>
         <Logo src={logo} alt="logotipo C" />
         <ul>
           <li>
@@ -33,8 +33,8 @@ export function Footer() {
             <a href="/">Install Guides</a>
           </li>
         </ul>
-      </nav>
-      <ul className="redes-sociais">
+      </Menu>
+      <Redes>
         <li>
           <img src={facebook} alt="facebook" />
         </li>
@@ -44,7 +44,7 @@ export function Footer() {
         <li>
           <img src={instagram} alt="instagram" />
         </li>
-      </ul>
+      </Redes>
     </Container>
   );
 }

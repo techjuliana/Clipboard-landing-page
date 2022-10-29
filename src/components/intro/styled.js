@@ -28,5 +28,4 @@ export const Logo = styled.img`
 export const Fundo = styled.img`
   width: 100%;
   height: 12rem;
-  /* z-index: -1; */
 `;

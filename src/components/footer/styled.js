@@ -11,7 +11,23 @@ export const Container = styled.footer`
     flex-direction: column;
     text-align: center;
   }
+`;
 
+export const Redes = styled.ul`
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  @media (max-width: 800px) {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+  }
+  img {
+    margin: 5px;
+  }
+`;
+
+export const Menu = styled.nav`
   ul {
     display: inline-block;
     list-style: none;
@@ -28,20 +44,8 @@ export const Container = styled.footer`
   li {
     padding: 13px;
   }
-
-  .redes-sociais {
-    display: flex;
-    flex-direction: row;
-    @media (max-width: 800px) {
-      display:grid;
-      justify-content: center;
-      grid-template-columns: auto auto auto;
-    }
-    img {
-      margin: 5px;
-    }
-  }
 `;
+
 export const Logo = styled.img`
   width: 70px;
   height: 70px;

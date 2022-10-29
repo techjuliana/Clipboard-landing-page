@@ -14,47 +14,42 @@ export const Container = styled.div`
       text-align: center;
     }
   }
+`;
 
-  .texto-titulo {
-    display: flex;
-    justify-content: center;
+export const Paragrafo = styled.p`
+  margin-top: 1.5rem;
+  margin-bottom: 4rem;
+  text-align: center;
+  @media (max-width: 800px) {
     align-items: center;
   }
-  .texto {
-    margin-top: 1.5rem;
-    margin-bottom: 4rem;
-    text-align: center;
-    @media (max-width: 800px) {
-      align-items: center;
-    }
-  }
+`;
 
-  .listagem {
-    display: flex;
-    justify-content: center;
+export const Sobre = styled.div`
+  display: flex;
+  flex-direction: row;
+  @media (max-width: 800px) {
     flex-direction: column;
-    margin-left: 7rem;
-    @media (max-width: 800px) {
-      align-items: center;
-      margin-top: 2rem;
-    }
-    p {
-      padding-top: 1rem;
-      padding-bottom: 2rem;
-    }
-    @media (max-width: 800px) {
-      margin-left: 0rem;
-    }
+    margin-bottom: 1rem;
+    justify-content: center;
   }
+`;
 
-  .canto {
-    display: flex;
-    flex-direction: row;
-    @media (max-width: 800px) {
-      flex-direction: column;
-      margin-bottom: 1rem;
-      justify-content: center;
-    }
+export const Listagem = styled.div`
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 7rem;
+  @media (max-width: 800px) {
+    align-items: center;
+    margin-top: 2rem;
+  }
+  p {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+  @media (max-width: 800px) {
+    margin-left: 0rem;
   }
 `;
 
@@ -68,9 +63,15 @@ export const Pc = styled.img`
     width: 300px;
     height: 200px;
     margin: auto;
-  display: block;
+    display: block;
     display: flex;
     text-align: center;
     object-fit: fill;
   }
+`;
+
+export const Titulo = styled.h1`
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;

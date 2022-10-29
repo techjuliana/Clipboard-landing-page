@@ -7,16 +7,21 @@ import blacklist from "./../../images/icon-blacklist.svg";
 import icontext from "./../../images/icon-text.svg";
 import preview from "./../../images/icon-preview.svg";
 
-import { Container } from "./styled";
+import {
+  Container,
+  Paragrafo,
+  Listagem,
+  ListagemSuperior,
+  Marcas,
+} from "./styled";
 
 export function Workflow() {
   return (
     <Container>
-      <h1>Supercharge your workflow</h1>
-      <p className="texto">We've got the tools to boost your productivity</p>
-
-      <div className="listagem">
-        <div className="listagem-superior">
+      /<h1>Supercharge your workflow</h1>
+      <Paragrafo>We've got the tools to boost your productivity</Paragrafo>
+      <Listagem>
+        <ListagemSuperior>
           <img src={blacklist} alt="" height="40" width="40" />
           <h3>Create blacklists</h3>
           <p>
@@ -26,8 +31,8 @@ export function Workflow() {
             <br />
             sources.
           </p>
-        </div>
-        <div className="listagem-superior">
+        </ListagemSuperior>
+        <ListagemSuperior>
           <img src={icontext} alt="" height="40" width="40" />
           <h3>Plain text snippets</h3>
           <p>
@@ -35,8 +40,8 @@ export function Workflow() {
             <br />
             for a consistent look.
           </p>
-        </div>
-        <div className="listagem-superior">
+        </ListagemSuperior>
+        <ListagemSuperior>
           <img src={preview} alt="" height="40" width="40" />
           <h3>Sneak preview</h3>
           <p>
@@ -44,15 +49,15 @@ export function Workflow() {
             <br />
             for easy access.
           </p>
-        </div>
-      </div>
-      <div className="marcas">
+        </ListagemSuperior>
+      </Listagem>
+      <Marcas>
         <img src={google} alt="" height="50" width="140" />
         <img src={ibm} alt="" height="50" width="140" />
         <img src={microsoft} alt="" height="50" width="140" />
         <img src={hp} alt="" height="50" width="140" />
         <img src={graphics} alt="" height="50" width="140" />
-      </div>
+      </Marcas>
     </Container>
   );
 }
