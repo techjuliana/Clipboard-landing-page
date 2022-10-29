@@ -18,7 +18,7 @@ import {
 export function Workflow() {
   return (
     <Container>
-      /<h1>Supercharge your workflow</h1>
+      <h1>Supercharge your workflow</h1>
       <Paragrafo>We've got the tools to boost your productivity</Paragrafo>
       <Listagem>
         <ListagemSuperior>
